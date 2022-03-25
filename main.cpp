@@ -68,7 +68,7 @@ void find(pos current, pos desired, vector<int> path) {
 					cout << '.';
 					break;
 				default:
-					cout << char(maze[i][j]);
+					cout << "\033[31m" << char(maze[i][j]) << "\033[0m";
 				}
 			}
 			cout << "\n";
