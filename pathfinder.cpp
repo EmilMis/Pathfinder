@@ -90,6 +90,6 @@ int main(void) {
 		}
 		stack = newstack;
 	}
-	cout << "no such path exists"
+	cout << "no such path exists";
 	return 0;
 }
