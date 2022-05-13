@@ -22,7 +22,8 @@ pair<int, int> endpos;
 int main(void) {
 
 	cin >> m >> n;
-	for (int i = 0; i < m; i++)for (int j = 0; j < n; j++)cin >> maze[i][j];
+	char c;
+	for (int i = 0; i < m; i++)for (int j = 0; j < n; j++) {cin >> c;maze[i][j] = (c == '#' ? 1:0);}
 
 	cin >> startpos.first >> startpos.second;
 	cin >> endpos.first >> endpos.second;
