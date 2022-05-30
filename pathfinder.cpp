@@ -12,9 +12,9 @@
 using namespace std;
 
 int m, n;
-int maze[1000][1000];
+int maze[1005][1005];
 
-int visited[1000][1000] = {};
+int visited[1005][1005] = {};
 
 pair<int, int> startpos;
 pair<int, int> endpos;
